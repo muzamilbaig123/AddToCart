@@ -13,6 +13,12 @@ body{
     margin: 0 auto;
 }
 
+/* responsive headder css */
+.icon-hide{
+    display: none;
+}
+
+
 
 .logo-nav-parent{
     display: flex;
@@ -35,8 +41,7 @@ body{
 .logo img{
     width: 90%;
 }
-nav{
-}
+
 nav li{
     display: inline-block;
     margin: 0px 20px;
@@ -201,7 +206,6 @@ footer{
 
 
 @media screen and (max-width:741px) {
-    
     .product{
         width: 80%;
     }
@@ -214,6 +218,31 @@ footer{
     }
     .footlogo{
         margin: 0 auto;
+    }
+    .logo-nav-parent{
+        flex-direction: column;
+        gap: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    nav li{
+    display: block;
+    margin: 0px 0px;
+    padding: 20px 0px;
+    }
+    .video {
+        top: -165px;
+    }
+    header{
+        background-color: rgba(39, 30, 30, 0.8)
+    }
+    .sec-laptop > h1, .sec-pc > h1 {
+        margin: 72px 0px 60px 0px;
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .total{
     }
 }
 
